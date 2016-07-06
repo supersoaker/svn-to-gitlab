@@ -5,6 +5,7 @@ source ./config.cfg
 
 mkdir -p $temp_folder
 sudo rm -R $temp_folder
+mkdir -p $temp_folder
 cd $temp_folder
 
 echo -e "Creating git repository from svn"
