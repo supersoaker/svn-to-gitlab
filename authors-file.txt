@@ -1,6 +1,1 @@
-bly = Bao Ly <b.ly@gds-gmbh.de>
-mkablitz = Miriam Kablitz-Blum <m.kablitz@gds-gmbh.de>
-nzuehl = Nils Zuehl <n.zuehl@gds-gmbh.de>
-nzühl = Nils Zuehl <n.zuehl@gds-gmbh.de>
-jmbecker = Max Becker <jm.becker@gds-gmbh.de>
-gdssvn = git <git@gds-gmbh.de>
+old_svn_user = gitlab_name <gitlab_email@example.com>
