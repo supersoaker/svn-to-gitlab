@@ -9,7 +9,7 @@ mkdir -p $temp_folder
 cd $temp_folder
 
 echo -e "Creating git repository from svn"
-git svn clone $svn_host_url/$2 ./ --authors-file=authors-file.txt
+git svn clone $svn_host_url/$2 ./ --authors-file=../authors-file.txt
 echo -e "... done"
 
 echo -e "Creating new repository in gitlab ... "
@@ -17,8 +17,9 @@ curl -H "Content-Type:application/json" $gitlab_host_url/api/v3/projects?private
 echo -e "... done"
 
 echo -e "Pushing into new repository ..."
-git push --mirror $gitlab_host_url/$namespace_name/$2.git
+git push --mirror $gitlab_host_url/$namespace_name/$1.git
 echo -e "... done"
 
 cd ..
-echo "Finished migrating svn repository to gitlab: $gitlab_host_url/$namespace_name/$2.git"
+sudo rm -R $temp_folder
+echo "Finished migrating svn repository to gitlab: $gitlab_host_url/$namespace_name/$1.git"
