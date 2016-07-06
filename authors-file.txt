@@ -1,1 +1,2 @@
 old_svn_user = Gitlab Name <gitlab_email@example.com>
+john_doe = John Doe <john.doe@example.com>
