@@ -2,15 +2,17 @@
 little bash script for bringing old svn repositories to gitlab
 
 ##Using
-#####Get this repo
+1 - Get this repo
 ```bash
 git clone https://github.com/supersoaker/svn-to-gitlab.git
 cd svn-to-gitlab
 chmod 755 ./import.sh
 ```
-#####Update config.cfg
-#####Update authors-file.txt (for user mapping)
-#####Execute this script
+2 - Update config.cfg
+
+3 - Update authors-file.txt (for user mapping)
+
+4 - Execute this script
 ```bash
 ./import.sh new-repository-name
 ```
