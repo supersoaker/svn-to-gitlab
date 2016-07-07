@@ -1,5 +1,5 @@
 # svn-to-gitlab
-little bash script for bringing old svn repositories to gitlab
+little bash script for bringing old svn repositories to gitlab. Creating new repositories in gitlab and matching all old svn authors to new gitlab users.
 
 ##Using
 1 - Get this repo
