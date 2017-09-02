@@ -14,7 +14,7 @@ chmod 755 ./import.sh
 
 4 - Execute this script
 ```bash
-./import.sh new-repository-name
+./import.sh repository-name
 ```
 
 ## Tipps
